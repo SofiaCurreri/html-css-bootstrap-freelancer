@@ -1,0 +1,21 @@
+header nav{
+    height: 70px;
+    background-color: rgb(44, 62, 80);
+}
+
+header .sx-nav,
+header .dx-nav{
+    height: 30px;
+    width: 20%;
+    background-color: brown;
+}
+
+
+
+
+/* MEDIA QUERY */
+@media screen and (min-width: 1121px){
+    
+}
+
+@media screen and (min-width: 1651px) {}
