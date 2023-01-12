@@ -10,7 +10,52 @@ header .dx-nav{
     background-color: brown;
 }
 
+ul{
+    list-style: none;
+}
 
+.box.start{
+    height: 600px;
+    background-color: rgb(26, 188, 156);
+}
+
+.profile,
+.title,
+.decoration,
+.info{
+    background-color: blueviolet;
+}
+
+.profile{
+    height: 40%;
+    width: 40%;
+}
+
+.title,
+.decoration{
+    height:70px;
+    width: 50%;
+}
+
+.info{
+    height: 10%;
+    width: 60%;
+}
+
+main .box .decoration .decor{
+    height: 70%;
+    width: 30%;
+    background-color: yellow;
+}
+
+h1{
+    text-align: center;
+}
+
+.box.portfolio .row img{
+    border-radius: 30px;
+    width: 100%;
+}
 
 
 /* MEDIA QUERY */
