@@ -131,3 +131,15 @@ main .box .decoration .decor{
     width: 60%;
     background-color: white;
 }
+
+/* COPYRIGHT */
+.box.copyright{
+    height: 100px;
+    background-color: rgb(44, 62, 80);
+}
+
+.box.copyright .testo-copyright{
+    height: 20px;
+    width: 200px;
+    background-color: white;
+}
