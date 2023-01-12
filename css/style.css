@@ -1,23 +1,36 @@
+/* HEADER */
+
 header nav{
     height: 70px;
     background-color: rgb(44, 62, 80);
 }
 
+header .dx-nav .menu{
+    height: 30px;
+    width: 40%;
+    background-color: aqua;
+}
+
+header .dx-nav .links {
+    height: 30px;
+    width: 100%;
+    background-color: yellow;
+}
+
 header .sx-nav,
-header .dx-nav{
+header .dx-nav {
     height: 30px;
     width: 20%;
     background-color: brown;
 }
 
+
 ul{
     list-style: none;
 }
 
-.box.start{
-    height: 600px;
-    background-color: rgb(26, 188, 156);
-}
+
+/* MAIN */
 
 .profile,
 .title,
@@ -26,15 +39,26 @@ ul{
     background-color: blueviolet;
 }
 
-.profile{
-    height: 40%;
-    width: 40%;
-}
-
 .title,
 .decoration{
     height:70px;
     width: 50%;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+/* START */
+.box.start,
+.box.about{
+    height: 600px;
+    background-color: rgb(26, 188, 156);
+}
+
+.profile{
+    height: 40%;
+    width: 40%;
 }
 
 .info{
@@ -48,14 +72,33 @@ main .box .decoration .decor{
     background-color: yellow;
 }
 
-h1{
-    text-align: center;
-}
+/* PORTFOLIO */
 
 .box.portfolio .row img{
     border-radius: 30px;
     width: 100%;
 }
+
+
+/* ABOUT */
+.contenitore-testo{
+    height: 60%;
+    width: 60%;
+    background-color: black;
+}
+
+.testo{
+    height: 60%;
+    width: 60%;
+    background-color: white;
+}
+
+.download{
+    height: 60px;
+    width: 100px;
+    background-color: palevioletred;
+}
+
 
 
 /* MEDIA QUERY */
