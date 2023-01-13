@@ -64,10 +64,47 @@ section {
 }
 
 /* ABOUT */
-#about button{
+#about button,
+#contacts .submit-send{
     background-color: rgb(26, 188, 156);
-    color: currentColor;
+    color: white;
     border: 1px solid white;
-    border-radius: 10px;
+    border-radius: 8px;
     padding: 0.5rem 1rem;
+}
+
+/* CONTACT ME */
+#contacts .submit-send{
+    border: transparent;
+}
+
+
+/* FOOTER */
+.upper-footer{
+    color: white;
+    background-color: rgb(58, 84, 109);
+}
+
+footer .circle{
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    border: 1px solid white;
+    background-color: rgb(58, 84, 109) ;
+}
+
+.footer-icon{
+    color: white;
+    font-size: 1.3rem;
+}
+
+.footer-credit{
+    color: rgb(38, 151, 139);
+}
+
+.bottom-footer{
+    background-color: rgb(44, 62, 80);
+    color: white;
 }
