@@ -1,19 +1,19 @@
 /* INIZIO CLASSI DI DEBUG DA RIMUOVERE */
 
-header,
+/* header,
 section {
 	border: 2px dashed green;
-}
+} */
 
 #header {
 	min-height: 80px;
 	border: 2px dashed green;
 }
 
-[class*="container"] {
+/* [class*="container"] {
 	min-height: 20px;
 	border: 2px dashed orange;
-}
+} */
 
 /* [class*="col"],
 #jumbotron>.box {
@@ -36,6 +36,11 @@ section {
 	border: none;
 }
 
+#jumbotron,
+#about .box-icon{
+    color: white;
+}
+
 /* FINE CLASSI DI DEBUG DA RIMUOVERE */
 
 /* HEADER */
@@ -51,10 +56,15 @@ section {
     background-color: rgb(26, 188, 156);
 }
 
-.star::before,
-.star::after{
-    height: 2px solid currentColor;
-    width: 30%;
+.line{
+    height: 4px;
+    background-color:currentColor;
+    width: 15%;
+    max-width: 150px;
+}
+
+.star{
+    font-size: 2rem;
 }
 
 /* PORTFOLIO */
@@ -81,6 +91,7 @@ section {
 
 /* FOOTER */
 .upper-footer{
+    padding: 10px;
     color: white;
     background-color: rgb(58, 84, 109);
 }
