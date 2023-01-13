@@ -1,162 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap Freelancer</title>
+    
+	<!-- META TAGS -->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- BOOTSTRAP LINK -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+	<!-- TITLE -->
+	<title> Bootstrap Freelancer </title>
 
+	<!-- BOOTSTRAP -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
-    <!-- CSS LINK -->
-    <link rel="stylesheet" href="./css/style.css">
+	<!-- CUSTOM CSS -->
+	<link rel="stylesheet" href="./css/style.css">
+
 </head>
 
 <body>
+	<header id="header">
 
-    <div class="container">
+		<!-- TODO: INSERIRE IL COMPONENTE NAVBAR -->
 
+	</header>
 
-        <!-- HEADER -->
-        <header>
-            <nav class="d-flex justify-content-between align-items-center">
-                <div class="sx-nav ms-2"></div>
-                <div class="dx-nav me-2 d-flex justify-content-end">
-                    <ul class=" links d-none d-md-block d-xl-block">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                    <div class="menu d-block d-md-none d-xl-none"></div>
-                </div>
-            </nav>
-        </header>
+	<main>
+		<!-- JUMBOTRON -->
+		<section id="jumbotron" class="d-flex flex-column align-items-center text-center text-uppercase py-5">
+			<div class="box box-img">
+				<!-- <img src="" alt=""> -->
+			</div>
+			<h1>WEBSITE TITLE</h1>
+			<div class="box box-icon"></div>
+			<p>link - link - link</p>
+		</section>
 
+		<!-- PORTFOLIO -->
+		<section id="portfolio" class="py-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 d-flex flex-column align-items-center text-center">
+						<h1>
+							SECTION TITLE
+						</h1>
+						<div class="box box-icon">
+							icon
+						</div>
+					</div>
+				</div>
 
-        <!-- MAIN -->
-        <main>
+				<div class="row">
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="box box-img"></div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="box box-img"></div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="box box-img"></div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="box box-img"></div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="box box-img"></div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="box box-img"></div>
+					</div>
+				</div>
+			</div>
+		</section>
 
+		<!-- ABOUT -->
+		<section id="about" class="py-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 d-flex flex-column align-items-center text-center">
+						<h1>
+							SECTION TITLE
+						</h1>
+						<div class="box box-icon">
+							icon
+						</div>
+					</div>
+				</div>
 
-            <!-- BOX START -->
-            <div class="box start d-flex flex-column align-items-center justify-content-center gap-3">
+				<!-- Allineamento colonne metodo 1 -->
+				<div class="row justify-content-center">
+					<div class="col-10 col-md-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+						placeat, cum
+						autem ipsa tenetur provident adipisci totam. Consequatur, repudiandae quas quaerat odit magnam,
+						sapiente dicta error, ratione laudantium alias expedita.</div>
+					<div class="col-10 col-md-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+						placeat, cum
+						autem ipsa tenetur provident adipisci totam. Consequatur, repudiandae quas quaerat odit magnam,
+						sapiente dicta error, ratione laudantium alias expedita.</div>
 
-                <div class="profile mt-5">
-                    <img src="" alt="">
-                </div>
-                <div class="title">
-                    <h1></h1>
-                </div>
-                <div class="decoration">
-                    <span class="decor"></span>
-                    <span class="decor"></span>
-                    <span class="decor"></span>
-                </div>
-                <div class="info mb-3"></div>
+					<div class="w-100"></div>
 
-            </div>
+					<div class="col-auto">
+						<button type="button">
+							Download
+						</button>
+					</div>
+				</div>
 
+				<!-- Allineamento colonne metodo 2 -->
 
-            <!-- BOX PORTFOLIO -->
-            <div class="box portfolio d-flex flex-column align-items-center justify-content-center gap-3 mt-5">
+				<!-- <div class="row justify-content-center">
+					<div class="col-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt placeat, cum
+						autem ipsa tenetur provident adipisci totam. Consequatur, repudiandae quas quaerat odit magnam,
+						sapiente dicta error, ratione laudantium alias expedita.</div>
+					<div class="col-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt placeat, cum
+						autem ipsa tenetur provident adipisci totam. Consequatur, repudiandae quas quaerat odit magnam,
+						sapiente dicta error, ratione laudantium alias expedita.</div>
+				</div>
 
-                <h1> PORTFOLIO </h1>
-                <div class="decoration mb-3">
-                    <span class="decor"></span>
-                    <span class="decor"></span>
-                    <span class="decor"></span>
-                </div>
-
-                <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-5">
-                    <div class="col">
-                        <img src="./img/cabin.png" alt="">
-                    </div>
-                    <div class="col">
-                        <img src="./img/cake.png" alt="">
-                    </div>
-                    <div class="col">
-                        <img src="./img/circus.png" alt="">
-                    </div>
-                    <div class="col">
-                        <img src="./img/game.png" alt="">
-                    </div>
-                    <div class="col">
-                        <img src="./img/safe.png" alt="">
-                    </div>
-                    <div class="col">
-                        <img src="./img/submarine.png" alt="">
-                    </div>
-                </div>
-
-            </div>
-
-
-            <!-- BOX ABOUT -->
-            <div class="box about d-flex flex-column align-items-center justify-content-center gap-3 mt-5">
-
-                <h2> ABOUT </h2>
-                <div class="decoration mb-3">
-                    <span class="decor"></span>
-                    <span class="decor"></span>
-                    <span class="decor"></span>
-                </div>
-
-                <div class="contenitore-testo d-flex flex-column flex-md-row flex-xl-row align-items-center justify-content-center gap-3">
-                    <p class="testo"></p>
-                    <p class="testo"></p>
-                </div>
-
-                <div class="download mt-5 mb-3">
-                    <!-- <button></button> -->
-                </div>
-
-            </div>
-
-        </main>
-
-        <footer>
-
-            
-            <!-- CONTACT ME -->
-            <div class="box contact d-flex flex-column align-items-center justify-content-center gap-3 mt-5">
-                
-                <h2> CONTACT ME </h2>
-                <div class="decoration mb-3">
-                    <span class="decor"></span>
-                    <span class="decor"></span>
-                    <span class="decor"></span>
-                </div>
-                
-                <div class="dati d-flex flex-column align-items-start justify-content-center gap-3">
-                    
-                    <div class="box-dati"></div>
-                    <div class="box-dati"></div>
-                    <div class="box-dati"></div>
-                    <div class="box-dati"></div>
-                    
-                </div>
-                
-                <div class="send mt-5">
-                    <!-- <button></button> -->
-                </div>
-                
-            </div>
+				<div class="row justify-content-center">
+					<div class="col-auto">
+						<button type="button">
+							Download
+						</button>
+					</div>
+				</div> -->
 
 
-            <!-- LOCATION -->
-            <div class="box location d-flex flex-column flex-md-row flex-xl-row align-items-center justify-content-center gap-5 mt-5">
+			</div>
+		</section>
 
-                <div class="info-location"></div>
-                <div class="info-location"></div>
-                <div class="info-location"></div>
 
-            </div>
+		<!-- CONTACTS -->
+		<section id="contacts" class="py-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 d-flex flex-column align-items-center text-center">
+						<h1>
+							SECTION TITLE
+						</h1>
+						<div class="box box-icon">
+							icon
+						</div>
+					</div>
+				</div>
 
-            <!-- COPYRIGHT -->
-            <div class="box copyright d-flex justify-content-center align-items-center">
-                <div class="testo-copyright">
+
+				<form action="https:tizianonicolai.com/lezioni/form-printer" method="GET"
+					class="row justify-content-center">
+					<div class="col-10">
+						<input type="text">
+					</div>
+					<div class="col-10">
+						<input type="text">
+					</div>
+					<div class="col-10">
+						<input type="text">
+					</div>
+					<div class="col-10">
+						<input type="text">
+					</div>
+					<div class="col-10">
+						<textarea name="" id="" cols="30" rows="10"></textarea>
+					</div>
+					<div class="col-10">
+						<input type="submit" value="">
+					</div>
+				</form>
+
+			</div>
+
+
+		</section>
+	</main>
+
+	<!-- FOOTER -->
+	<footer class="pt-5">
+		<section class="upper-footer">
+			<div class="container text-center">
+				<div class="row">
+					<div class="col-12 col-md-4">
+						<h3>SUBTITLE</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+					</div>
+					<div class="col-12 col-md-4">
+						<h3>SUBTITLE</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+					</div>
+					<div class="col-12 col-md-4">
+						<h3>SUBTITLE</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+					</div>
+					<div class="col-12 text-center">
+						Lorem ipsum dolor sit amet.
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="bottom-footer text-center py-5">
+			<h4>
+				Lorem ipsum dolor sit amet.
+			</h4>
+		</section>
+
+	</footer>
+
+	<!-- CDN JAVASCRIPT PER BOOTSTRAP -->
+	<!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+		integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+		integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+		crossorigin="anonymous"></script> -->
+</body>
+
+s="testo-copyright">
                     <p></p>
                 </div>
             </div>
